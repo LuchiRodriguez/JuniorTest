@@ -12,14 +12,15 @@
         rel="stylesheet">
     <link rel="icon" href="/assets/logo.png" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./tablet.css" media="(min-width: 700px)">
 </head>
 
 <body>
     <header>
         <div class="background_image"></div>
-        <div id="header_content" class="flex flex_column justify_between padding">
+        <div id="header_content" class="flex flex_column justify_between">
             <img src="./assets/logo colillas.svg" alt="" />
-            <h1 class="font_tinos color_gray">
+            <h1 class="font_tinos font_2 color_gray">
                 Lorem ipsum dolor sit amet consectetur.<br />Elementum mauris
                 tincidunt vitae ornare<br />ultrices eget integer. Sagittis in ac
                 fringilla sit.
@@ -27,7 +28,7 @@
             <section class="flex flex_column gap font_dm_sans color_gray">
                 <p>LOREM IPSUM DOLOR SIT AMET</p>
                 <div class="flex items_center justify_between">
-                    <p>
+                    <p class="font_16">
                         Lorem ipsum dolor sit amet consectetur.<br />Nibh vestibulum
                         eleifend a et.
                     </p>
@@ -45,7 +46,8 @@
     </header>
     <main>
         <section id="advantages" class="flex flex_wrap justify_center padding font_dm_sans">
-            <div class="flex flex_column justify_evenly">
+            <section class="flex flex_wrap">
+             <div class="flex flex_column justify_evenly">
                 <img src="./assets/settings.svg" alt="" />
                 <h2>Pauline</h2>
                 <p class="font_14">
@@ -60,8 +62,10 @@
                     Lorem ipsum dolor sit amet consectetur. Quis nulla rhoncus iaculis
                     ac. Sed pretium sapien condimentum odio nunc lectus.
                 </p>
-            </div>
-            <div class="flex flex_column justify_evenly">
+            </div>   
+            </section>
+            <section class="flex flex_wrap">
+             <div class="flex flex_column justify_evenly">
                 <img src="./assets/rocket.svg" alt="" />
                 <h2>Henry</h2>
                 <p class="font_14">
@@ -76,12 +80,14 @@
                     Lorem ipsum dolor sit amet consectetur. Dignissim urna dui aliquam
                     ut enim commodo nibh. Ornare amet semper sit.
                 </p>
-            </div>
+            </div>   
+            </section>
+            
         </section>
         <section id="bloc" class="grid padding font_dm_sans background_gray">
-            <div class="margin_bottom">
-                <h1 class="font_tinos font_33">Lorem ipsum dolor sit</h1>
-                <p class="font_17">Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="margin_bottom text_center">
+                <h1 class="font_tinos font_4">Lorem ipsum dolor sit</h1>
+                <p class="font_2">Lorem ipsum dolor sit amet consectetur.</p>
             </div>
             <p class="font_12">
                 Lorem ipsum dolor sit amet consectetur. Erat neque viverra pharetra
@@ -113,7 +119,8 @@
         <section id="recent_articles" class="padding">
             <h1 class="font_36 color_gray">Articles recents</h1>
             <div class="flex flex_wrap justify_center font_dm_sans">
-                <article class="flex flex_column justify_between padding">
+                <section class="flex flex_wrap">
+                 <article class="flex flex_column justify_between padding">
                     <div class="flex justify_between items_center">
                         <h2 class="font_12">27 DES 2023</h2>
                         <span class="font_12 laboral_tag text_center">LABORAL</span>
@@ -148,8 +155,10 @@
                         determinades loteries i apostes.
                     </p>
                     <a href="" class="flex items_center gap bold">Llegir més <img src="./assets/arrow.svg" alt="" /></a>
-                </article>
-                <article class="flex flex_column justify_between padding">
+                </article>   
+                </section>
+                <section class="flex flex_wrap">
+                 <article class="flex flex_column justify_between padding">
                     <div class="flex justify_between items_center">
                         <h2 class="font_12">30 NOV 2023</h2>
                         <span class="font_12 fiscal_tag text_center">FISCAL</span>
@@ -177,12 +186,14 @@
                         fluida.
                     </p>
                     <a href="" class="flex items_center gap bold">Llegir més <img src="./assets/arrow.svg" alt="" /></a>
-                </article>
+                </article>   
+                </section>
+                
             </div>
         </section>
         <section id="testimonials" class="padding font_poppins text_center background_white">
-            <h1 class="font_36">Figma ipsum component variant main layer.</h1>
-            <div class="flex justify_center gap padding">
+            <h1 class="margin_top margin_bottom font_36">Figma ipsum component variant main layer.</h1>
+            <div class="flex justify_center gap margin_top margin_bottom padding">
                 <img src="./assets/star.svg" alt="" />
                 <img src="./assets/star.svg" alt="" />
                 <img src="./assets/star.svg" alt="" />
@@ -194,16 +205,19 @@
                 varius enim in eros elementum tristique. Duis cursus, mi quis viverra
                 ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
             </h2>
-            <p class="padding font_14">
+            <p class="margin_top margin_bottom padding font_14">
                 <span class="font_16 bold">Name Surname</span><br />
                 Position, Company name
             </p>
-            <div class="flex flex_wrap gap justify_evenly padding">
+            <div class="flex flex_wrap gap justify_evenly margin_top padding">
                 <img src="./assets/Company logo.svg" alt="" />
                 <img src="./assets/Company logo-1.svg" alt="" />
                 <img src="./assets/Company logo-2.svg" alt="" />
-                <img src="./assets/Company logo-3.svg" alt="" />
+                <div class="flex flex_wrap gap justify_evenly">
+                    <img src="./assets/Company logo-3.svg" alt="" />
                 <img src="./assets/Company logo-4.svg" alt="" />
+                </div>
+                
             </div>
         </section>
         <section id="form" class="grid gap padding background_white">
@@ -211,8 +225,8 @@
                 <h3 class=" color_accent">FIGMA IPSUM COMPONENT VARIANT MAIN LAYER.</h3>
                 <h1>Figma ipsum component variant main layer. Asset connection.</h1>
             </div>
-            <form class="font_roboto">
-                <div class="flex flex_wrap">
+            <form class="margin_bottom font_roboto">
+                <div class="flex flex_wrap justify_between">
                     <div>
                         <label for="name" class="block">Nombre</label>
                         <input type="text" name="name" id="name" class="input"/>
@@ -222,7 +236,7 @@
                         <input type="text" name="company" id="company" class="input"/>
                     </div>
                 </div>
-                <div class="flex flex_wrap">
+                <div class="flex flex_wrap justify_between">
                     <div>
                         <label for="email" class="block">Email</label>
                         <input type="email" name="email" id="email" class="input"/>
@@ -240,24 +254,24 @@
                     <input type="text" name="accept_terms" id="accept_terms" disabled/>
                     <label for="accept_terms">I accept the <a href="">Terms</a></label>
                 </div>
-                <button class="flex justify_evenly items_center font_poppins">Enviar <img src="./assets/arrow_white.svg" alt="" /></button>
+                <button class="flex justify_evenly items_center margin_bottom font_poppins">Enviar <img src="./assets/arrow_white.svg" alt="" /></button>
             </form>
         </section>
     </main>
     <footer class="padding font_dm_sans text_center background_gray">
         <div id="links" class="grid gap">
-            <div class="padding">
+            <div class="margin_top padding">
                 <h2>Fountainebleau</h2>
-                <p>
+                <p class="margin_top">
                     Cummerata Trail, 33<br />
                     08012 Marianfort<br />
                     (+34) 123 456 789<br /><br />
                     info@colillas.com
                 </p>
             </div>
-            <div class="padding">
+            <div class="margin_top padding">
                 <h2>Daly City</h2>
-                <p>
+                <p class="margin_top margin_bottom">
                     N Front Street, 85<br />
                     8895 Daly City<br />
                     (+34) 123 456 789<br /><br />
@@ -265,7 +279,7 @@
                 </p>
             </div>
         </div>
-        <div id="social_media" class="margin_top">
+        <div id="social_media" class="margin_top margin_bottom">
             <a href=""><img src="./assets/facebook.svg" alt="" /></a>
             <a href=""><img src="./assets/x.svg" alt="" /></a>
             <a href=""><img src="./assets/linkedin.svg" alt="" /></a>

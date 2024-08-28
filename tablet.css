@@ -1,0 +1,32 @@
+#header_content h1 {
+    font-size: 2em;
+    width: 70vw;
+}
+
+#header_content section {
+    width: 50vw;
+}
+
+#recent_articles h1 {
+    padding-left: 3vw;
+}
+
+#bloc{
+    grid-template-columns: 1fr 1fr;
+}
+
+#form{
+    grid-template-columns: 3fr 2fr;
+}
+
+#links{
+    grid-template-columns: 1fr 1fr;
+}
+
+.font_2 {
+    font-size: 1em;
+}
+
+.font_4 {
+    font-size: 2em;
+}

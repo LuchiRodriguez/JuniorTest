@@ -41,20 +41,19 @@
     font-size: 16px;
 }
 
-.font_17{
-    font-size: 17px;
-}
-
 .font_20{
     font-size: 20px;
 }
 
-.font_33{
-    font-size: 33px;
-}
-
 .font_36{
     font-size: 36px;
+}
+
+.font_2{
+    font-size: 2.2em;
+}
+.font_4{
+    font-size: 4em;
 }
 
 .text_center{
@@ -146,6 +145,7 @@ header{
 }
 
 #header_content{
+    padding: 20px 0 20px 20px;
     position: absolute;
     top: 0;
     height: 100%;
@@ -161,11 +161,13 @@ header{
 }
 
 #header_content section{
+    width: 90vw;
     padding: 10px 0;
     border-bottom: 1px solid;
 }
 
 #header_content section div{
+    height: 50px;
     padding-top: 5px;
     border-top: 1px solid;
 }
@@ -176,7 +178,7 @@ header{
 }
 
 #advantages div{
-    margin: 20px;
+    margin: 15px;
     width: 300px;
     height: 217px;
 }
@@ -253,6 +255,7 @@ header{
 
 #form textarea{
     resize: auto;
+    width: 100%;
     height: 180px;
 }
 
