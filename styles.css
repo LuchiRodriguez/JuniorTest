@@ -1,0 +1,305 @@
+:root {
+    /*Colors*/
+    --primary-text: #000000;
+    --dark: #1B1B1B;
+    --white: #ffffff;
+    --input-border: #aaaaaa;
+    --accent: #f5333f;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.font_tinos{
+    font-family: "Tinos", serif;
+}
+
+.font_dm_sans{
+    font-family: "DM Sans", sans-serif;
+}
+
+.font_poppins{
+    font-family: "Poppins", sans-serif;
+}
+
+.font_roboto{
+    font-family: "Roboto", sans-serif;
+}
+
+.font_12{
+    font-size: 12px;
+}
+
+.font_14{
+    font-size: 14px;
+}
+
+.font_16{
+    font-size: 16px;
+}
+
+.font_17{
+    font-size: 17px;
+}
+
+.font_20{
+    font-size: 20px;
+}
+
+.font_33{
+    font-size: 33px;
+}
+
+.font_36{
+    font-size: 36px;
+}
+
+.text_center{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.color_accent{
+    color: #f5333f;
+}
+
+.color_gray{
+    color:#303536
+}
+
+.background_gray{
+    background-color: #303536;
+}
+
+.background_white{
+    background-color: #F7F7F7;
+}
+
+.margin_top {
+    margin-top: 20px;
+}
+
+.margin_bottom {
+    margin-bottom: 20px;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+}
+
+.block{
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex_wrap {
+    flex-wrap: wrap;
+}
+
+.flex_column {
+    flex-direction: column;
+}
+
+.justify_between {
+    justify-content: space-between;
+}
+
+.justify_center {
+    justify-content: center;
+}
+
+.justify_evenly {
+    justify-content: space-evenly;
+}
+
+.items_center {
+    align-items: center;
+}
+
+.gap{
+    gap: 10px;
+}
+
+header{
+    height: 100vh;
+}
+
+.background_image{
+    height: 100%;
+    background-image: url(./assets/leone-venter-VieM9BdZKFo-unsplash.jpg);
+    background-size: cover;
+    background-position: 70%;
+    filter: grayscale(100%) contrast(100%);
+}
+
+#header_content{
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+#header_content img{
+    width: 215px;
+    height: 30px;
+}
+
+#header_content h1{
+    width: 80vw;
+}
+
+#header_content section{
+    padding: 10px 0;
+    border-bottom: 1px solid;
+}
+
+#header_content section div{
+    padding-top: 5px;
+    border-top: 1px solid;
+}
+
+#header_content section img{
+    width: 24px;
+    height: 20px;
+}
+
+#advantages div{
+    margin: 20px;
+    width: 300px;
+    height: 217px;
+}
+
+#advantages img{
+    width: 44px;
+    height: 44px;
+}
+
+#bloc{
+    color: #E7E5E4;
+}
+
+#recent_articles{
+    background-color: #EDEFEE;
+}
+
+#recent_articles h1{
+    padding-left: 6.5vw;
+}
+
+#recent_articles article{
+    width: 290px;
+    height: 300px;
+    margin: 20px;
+    background-color: #C4C9C5;
+}
+
+.laboral_tag{
+    width: 75px;
+    height: 24px;
+    padding-top: 4px;
+    background-color: #C09473;
+    color: var(--white);
+    border-radius: 6px;
+}
+
+.fiscal_tag{
+    width: 61px;
+    height: 24px;
+    padding-top: 4px;
+    background-color: #4D868E;
+    color: var(--white);
+    border-radius: 6px;
+}
+
+#recent_articles p{
+    width: 250px;
+    height: 81px;
+    overflow: hidden;
+}
+
+#recent_articles a{
+    text-decoration: none;
+    color: var(--dark);
+}
+
+#recent_articles a img{
+    width: 18px;
+    height: 15px;
+}
+
+#testimonials p{
+    border-bottom: 2px solid #E7E7E7;
+}
+
+.input{
+    margin: 10px 0;
+    width: 298px;
+    height: 48px;
+    border: 1px solid var(--input-border);
+    border-radius: 30px;
+}
+
+#form textarea{
+    resize: auto;
+    height: 180px;
+}
+
+#accept_terms{
+    width: 18px;
+    height: 18px;
+    border: 1px solid var(--primary-text);
+}
+
+label[for="accept_terms"] a{
+    color: var(--primary-text);
+    text-decoration-thickness: 1px;
+}
+
+#form button{
+    margin-top: 20px;
+    width: 142.5px;
+    height: 50px;
+    font-size: 20px;
+    color: var(--white);
+    border: none;
+    border-radius: 60px;
+    background-color: #1D1D1B;
+}
+
+#form button img{
+    width: 25.5px;
+    height: 20px;
+}
+
+footer{
+    color: #EDEFEE;
+}
+
+#links{
+    margin: auto;
+    max-width: 880px;
+}
+
+#social_media img{
+    margin: 6px;
+    width: 20px;
+    height: 20px;
+    object-fit: contain
+}
+
+#credits a{
+    color: #EDEFEE;
+    text-decoration: none;
+}
