@@ -7,12 +7,11 @@
     width: 50vw;
 }
 
-#recent_articles h1 {
-    padding-left: 3vw;
+#bloc div{
+    max-width: 300px;
 }
-
-#bloc{
-    grid-template-columns: 1fr 1fr;
+#bloc p{
+    max-width: 300px;
 }
 
 #form{
@@ -21,12 +20,4 @@
 
 #links{
     grid-template-columns: 1fr 1fr;
-}
-
-.font_2 {
-    font-size: 1em;
-}
-
-.font_4 {
-    font-size: 2em;
 }
