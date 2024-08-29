@@ -1,3 +1,5 @@
+/*Header styles*/
+
 #header_content h1 {
     font-size: 2em;
     width: 70vw;
@@ -6,6 +8,8 @@
 #header_content section {
     width: 50vw;
 }
+
+/*Main styles*/
 
 #bloc div{
     max-width: 300px;

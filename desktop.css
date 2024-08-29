@@ -1,22 +1,29 @@
+/*Header styles*/
+
 #header_content h1 {
     font-size: 3em;
     width: 70vw;
 }
-#bloc{
+
+/*Main styles*/
+
+#bloc {
     height: 662px;
 }
-#bloc div{
+
+#bloc div {
     min-width: 620px;
 }
 
-#bloc p{
+#bloc p {
     max-width: 620px;
 }
 
-#testimonial_text{
+#testimonial_text {
     margin: auto;
     width: 990px;
 }
+
 #form {
     margin: auto;
     max-width: 1290px;
@@ -24,10 +31,12 @@
     grid-template-columns: 1fr 1fr;
 }
 
-.font_18{
+/*Fonts sizes*/
+
+.font_18 {
     font-size: 4em;
 }
 
-.font_09{
+.font_09 {
     font-size: 2.2em;
 }
